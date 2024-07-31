@@ -6,6 +6,20 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    margin: 50px auto 0 auto;
+    font-size: 4em; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #ff0000; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 1500px;
 }
 
 .card {
@@ -16,6 +30,7 @@ body {
     width: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    text-align: center;
 }
 
 .card:hover {

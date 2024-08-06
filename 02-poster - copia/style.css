@@ -1,0 +1,176 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 663px;
+    height: 883px;
+    background-image: url(img/fondoA.png);
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    transition: transform 2s ease-in-out;
+}
+
+.container img:hover {
+    transform: translateY(-10px);
+}
+
+.logo {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveLogo 7s linear infinite;
+}
+
+.oruga img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveOruga 5s linear infinite;
+}
+
+.bdos img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveBdos 6s linear infinite;
+}
+
+.ambiente img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveAmbiente 7s linear infinite;
+}
+
+.dos img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveDos 8s linear infinite;
+}
+
+.somb img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveSomb 9s linear infinite;
+}
+
+.alicia img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveAlicia 10s linear infinite;
+}
+
+.sombra img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveSombra 11s linear infinite;
+}
+
+.hongos img {
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 883px;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 2;
+    animation: moveHongos 12s linear infinite;
+}
+
+@keyframes moveLogo {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes moveOruga {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes moveBdos {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes moveSomb {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes moveAlicia {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes moveSombra {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes moveHongos {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+}
+
+.start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #555;
+}

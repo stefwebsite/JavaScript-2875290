@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffeaf1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px; /* Añadido para limitar el ancho del contenedor */
+    width: 100%; /* Añadido para asegurar el tamaño completo */
+    margin: auto; /* Centrado horizontal */
+}
+
+h1 {
+    color: #ff99cc;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ff99cc;
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Ajuste para el tamaño del borde */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+button {
+    padding: 10px 20px; /* Ajuste para el tamaño del botón */
+    border: none;
+    border-radius: 5px;
+    background-color: #ff99cc;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ff66b2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff0f5;
+    padding: 10px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-text {
+    flex: 1;
+    text-align: left;
+}
+
+.mark-btn, .delete-btn {
+    background-color: #ff99cc;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.mark-btn:hover, .delete-btn:hover {
+    background-color: #ff66b2;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #d3d3d3;
+}

@@ -1,0 +1,120 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url(../asset/back.jfif);
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.formulario {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    border: 1px solid #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.titulo {
+    margin-bottom: 1.5rem;
+    color: #c90000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+input[type="username"], input[type="password"] {
+    width: calc(100% - 2rem);
+    padding: 0.85rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #c90000;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+input[type="username"]:focus, input[type="password"]:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #c90000;
+}
+
+button {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #c90000;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #5c0000;
+    transform: scale(1.05);
+}
+
+.inicia {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #c90000;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.inicia:hover {
+    background-color: #5c0000;
+    transform: scale(1.05);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #b30000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+;
+    

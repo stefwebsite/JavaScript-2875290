@@ -31,6 +31,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
     text-align: center;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -62,13 +63,12 @@ body {
 }
 
 .container {
-    margin-top: 30px;
-    column-count: 11;
-    column-gap: 30px;
-    column-rule: #ffffff;
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
+        margin-top: 20px; 
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; 
+
 }
     
-  

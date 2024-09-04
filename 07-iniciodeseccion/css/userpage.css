@@ -1,0 +1,119 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    margin: 50px auto 0 auto;
+    font-size: 4em; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #ff0000; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 1500px;
+}
+
+.card {
+    background-color: #111;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    color: #ff0000;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.card p strong {
+    color: #ff0000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 30px;
+    column-count: 5;
+    column-gap: 30px;
+    column-rule: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btncerrar {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btncerrar:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

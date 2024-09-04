@@ -1,15 +1,17 @@
 /* let nombre = "sungho"
 
 let item = ['uno', 'dos', 'tres', 'cuatro', 'cinco' ]
-let musica = {
-    id: 4,
-    imagen: 'https://i.ytimg.com/vi/4F0cCKFac04/hqdefault.jpg?s…GUgYChMMA8=&rs=AOn4CLBLLazhlzJ7bIGyYU0rbTw62SxSUA',
-    nombre: 'Fecha',
-    genero: 'Regueton',
-    año: 2024,
-    artista: 'Feid',
-    link: 'https://youtu.be/4F0cCKFac04?si=BIA6UVUrq2BOKMPS'
-}
+let peliculas = [
+    {
+        id: 1,
+        nombre: 'Hereditary',
+        year: 2018,
+        direccion: 'Ari Aster',
+        guionistas: ['Ari Aster'],
+        genero: 'terror',
+        image: 'https://pics.filmaffinity.com/hereditary-551635712-mmed.jpg'
+    }
+        
 function agregarStorage (key, value) {
     if(typeof value === 'string'){
         localStorage.setItem(key, value)

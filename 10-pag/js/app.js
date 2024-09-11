@@ -52,7 +52,7 @@ loginForm.addEventListener('submit', (e) => {
 
     saludo.innerHTML = `Hola, ${usuario}`;
     logoutBtn.style.display = 'inline';
-    wrapper.classList.remove('active-popup');
+    wrapper.classList.remove('active-popup'); 
 
 });
 

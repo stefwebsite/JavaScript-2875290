@@ -1,89 +1,37 @@
-let Aiden = [
-    {
-        imagenplaneta: "",
-        mision: 0,
-        textodescripcion: "texto",
-        comenazar: '',
-        videos: ['',''],
-        desafios: [
+const desafios = [
             {
-            imagenplaneta: "",
-            desafio: 1,
-            textodescripcion: "texto",
-            comenazar: ''
+                id: 'desafio1',
+                titulo: 'DESAFÍO 1',
+                descripcion: `
+                    Durante el curso, hemos explorado<br>
+                    las herramientas, técnicas y conceptos<br>
+                    que transforman el mundo del arte digital.<br>
+                    ¿Están listos para demostrar tus conocimientos<br>
+                    en este campo apasionante?
+                `,
+                enlace: '../vistas/desafios.html'
             },
             {
-            imagenplaneta: "",
-            desafio: 2,
-            textodescripcion: "texto",
-            comenazar: ''
+                id: 'desafio2',
+                titulo: 'DESAFÍO 2',
+                descripcion: `
+                    Durante el curso, hemos explorado<br>
+                    las herramientas, técnicas y conceptos<br>
+                    que transforman el mundo del arte digital.<br>
+                    ¿Están listos para demostrar tus conocimientos<br>
+                    en este campo apasionante?
+                `,
+                enlace: '../vistas/desafios.html'
             },
             {
-            imagenplaneta: "",
-            desafio: 3,
-            textodescripcion: "texto",
-            comenazar: ''   
-            }
-        ]
-    },
-    {
-        imagenplaneta: "",
-        mision: 1,
-        textodescripcion: "texto",
-        comenazar: '',
-        videos: ['',''],
-        desafios: [
-            {
-            imagenplaneta: "",
-            desafio: 1,
-            textodescripcion: "texto",
-            comenazar: ''
-            },
-            {
-            imagenplaneta: "",
-            desafio: 2,
-            textodescripcion: "texto",
-            comenazar: ''
-            },
-            {
-            imagenplaneta: "",
-            desafio: 3,
-            textodescripcion: "texto",
-            comenazar: ''   
-            }
-        ]
-    },
-    {
-        imagenplaneta: "",
-        mision: 2,
-        textodescripcion: "texto",
-        comenazar: '',
-        videos: ['',''],
-        desafios: [
-            {
-            imagenplaneta: "",
-            desafio: 1,
-            textodescripcion: "texto",
-            comenazar: ''
-            },
-            {
-            imagenplaneta: "",
-            desafio: 2,
-            textodescripcion: "texto",
-            comenazar: ''
-            },
-            {
-            imagenplaneta: "",
-            desafio: 3,
-            textodescripcion: "texto",
-            comenazar: ''   
-            }
-        ]
-    },
-]
-
-
-
-
-
-
+                id: 'desafio3',
+                titulo: 'DESAFÍO 3',
+                descripcion: `
+                    Durante el curso, hemos explorado<br>
+                    las herramientas, técnicas y conceptos<br>
+                    que transforman el mundo del arte digital.<br>
+                    ¿Están listos para demostrar tus conocimientos<br>
+                    en este campo apasionante?
+                `,
+                enlace: '../vistas/desafios.html'
+            }];

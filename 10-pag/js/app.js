@@ -57,8 +57,6 @@ let User = JSON.parse( localStorage.getItem('user'))
 console.log(User.userName)
 console.log(User.userPass)
 
-console.log(Boolean(username.value === User.userName))
-console.log(Boolean(password.value === User.userPass))
 
     if(username.value === User.userName && password.value === User.userPass){
         console.log('felicidades puedes entrar ')

@@ -1,12 +1,12 @@
 const saludo =document.querySelector('#saludo')
 const container = document.querySelector('.container')
-const btn = document.querySelector('.btncerrar')
+const btncerrar = document.querySelector('#btncerrar')
 
 let nombreUser  = JSON.parse( localStorage.getItem('user'))
 
 saludo.innerHTML = `Hola ${nombreUser.userName} 🎃`
 
-peliculas.forEach(element => {
+Peliculas.forEach(element => {
     let card = document.createElement('div')
     
     card.innerHTML =
@@ -28,4 +28,4 @@ function cerrarsesion() {
     window.location = "../vistas/cerrarsesion.html";
 }
 
-btn.addEventListener("click", cerrarsesion);
+btncerrar.addEventListener('click', cerrarsesion);

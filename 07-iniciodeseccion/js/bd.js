@@ -1,4 +1,4 @@
-let peliculas = [
+let Peliculas = [
     {
         id: 1,
         nombre: 'Hereditary',
